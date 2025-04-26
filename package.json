@@ -1,0 +1,49 @@
+{
+  "name": "portfolio",
+  "description": "Yousif Al-Raheem's portfolio website",
+  "private": true,
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@10.9.0",
+  "engines": {
+    "node": ">=22.10.0"
+  },
+  "version": "0.1.0",
+  "homepage": "https://yousifalraheem.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousifalraheem/portfolio.git"
+  },
+  "author": {
+    "name": "Yousif Al-Raheem",
+    "email": "yousifalraheem@gmail.com",
+    "url": "yousifalraheem.dev"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@next/eslint-plugin-next": "^15.3.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.5.3",
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-config-tailwindcss": "^1.0.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

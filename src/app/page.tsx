@@ -1,3 +1,9 @@
+import Space from "@/components/Space/Space";
+
 export default function Home() {
-  return <div>Hello world</div>;
+  return (
+    <>
+      <Space />
+    </>
+  );
 }

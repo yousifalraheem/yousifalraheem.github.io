@@ -2,7 +2,7 @@ section#hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100dvh;
 
   .moon {
     position: absolute;
@@ -12,6 +12,7 @@ section#hero {
     max-width: 99vw;
     user-select: none;
     -webkit-user-drag: none;
+    -webkit-touch-callout: none;
 
     @media (prefers-reduced-motion: no-preference) {
       transition: filter 1.5s ease-in 400ms;
@@ -72,6 +73,7 @@ section#hero {
       /* noinspection CssInvalidFunction */
       --timeline: view(block 80% 5%);
 
+      /* noinspection CssInvalidFunction */
       @supports (animation-timeline: view(block 80% 5%)) {
         animation: fade-away 1s ease-in-out 2s forwards;
         animation-timeline: var(--timeline);

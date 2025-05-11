@@ -8,6 +8,8 @@
   --purple: #d100ff;
   --blue: #404ee0;
   --pink: #a0f;
+
+  color-scheme: dark;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,16 +21,18 @@
 
 html {
   overflow: hidden;
+  background-color: black;
+  color-scheme: dark;
 }
 
 body {
-  background: var(--background);
+  background-color: black;
   color: var(--foreground);
   width: 100dvw;
   height: 100dvh;
   overflow: hidden scroll;
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
 }
 
 section {

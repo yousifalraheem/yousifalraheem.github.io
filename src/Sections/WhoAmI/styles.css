@@ -25,6 +25,10 @@
     font-size: 1.25rem;
     color: white;
 
+    @media only screen and (width <= 600px) {
+      font-size: 1rem;
+    }
+
     &::selection {
       background: rgb(180 66 213 / 30%);
       color: white;

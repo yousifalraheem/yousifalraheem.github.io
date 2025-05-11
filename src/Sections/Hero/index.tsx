@@ -12,7 +12,7 @@ export function Hero() {
       </div>
 
       <div className="get-started">
-        <p className="text-sm">Scroll down</p>
+        <p className="text-smt text-white">Scroll down</p>
         <div className="icon-wrapper">
           {[...Array(3)].map((_, i) => {
             return <div key={i} className="icon" />;

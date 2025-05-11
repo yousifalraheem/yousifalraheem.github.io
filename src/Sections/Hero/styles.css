@@ -72,8 +72,10 @@ section#hero {
       /* noinspection CssInvalidFunction */
       --timeline: view(block 80% 5%);
 
-      animation: fade-away 1s ease-in-out 2s forwards;
-      animation-timeline: var(--timeline);
+      @supports (animation-timeline: view(block 80% 5%)) {
+        animation: fade-away 1s ease-in-out 2s forwards;
+        animation-timeline: var(--timeline);
+      }
     }
 
     .icon-wrapper {

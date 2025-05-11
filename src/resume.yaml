@@ -1,0 +1,83 @@
+profile: |
+  Experienced Senior Software Engineer with over a decade of
+  expertise in full-stack development, specializing in building
+  scalable web applications using modern technologies like React,
+  Angular, Node.js, and TypeScript. Proven track record of leading
+  frontend architecture, developing reusable UI component libraries,
+  and driving process improvements through CI/CD automation.
+  Demonstrated leadership as a frontend tech lead, implementing
+  best practices and standardizing development workflows across
+  teams. Strong background in collaborating with cross-functional
+  teams, mentoring junior developers, and contributing to strategic
+  decision-making through technical design documents and
+  incident analysis. Adept at delivering end-to-end solutions and
+  enhancing developer productivity, with a passion for adopting new
+  technologies and optimizing software performance.
+experience:
+  - title: Senior Software Engineer
+    employer: Zalando SE
+    location: Berlin, Germany
+    start_date: 2021-02
+    achievements:
+      - Developed and maintained an internal developer console platform, implementing full-stack features using React, Express.js, TypeScript, and PostgresSQL, significantly improving developer productivity and workflow eﬃciency.
+      - Architected and designed new software solutions, ensuring seamless integration with existing internal platforms and optimizing system performance across multiple services.
+      - Mentored junior and mid-level engineers, providing guidance on best practices, code reviews, and hands-on support to elevate team skills and knowledge.
+      - Played an active role in the hiring process, conducting technical interviews, evaluating candidates, and providing detailed feedback to support informed hiring decisions.
+      - Authored and contributed to several Technical Design Documents (TDDs), assessing various architectural solutions and helping drive eﬃcient decision-making processes.
+      - Contributed to the management of open-source projects, identifying bottlenecks and proposing scalable solutions to enhance project stability and maintainability.
+      - Participated in incident post-mortem analysis, identifying root causes and implementing preventive measures to reduce the likelihood of recurring issues.
+  - title: Frontend Tech Lead
+    employer: SEB
+    location: Kuala Lumpur, Malaysia
+    start_date: 2019-07
+    end_date: 2021-01
+    achievements:
+      - Led the frontend development team in defining and implementing best practices, ensuring high-quality and maintainable code across projects using React and Angular.
+      - Established comprehensive CI/CD pipelines in Azure DevOps, automating code quality checks including unit tests, end-to-end tests, integration tests, linting, and code formatting with Prettier to maintain consistency and reliability.
+      - Spearheaded technical discussions and team meetings, evaluating current tools and frameworks, and introducing new technologies to enhance productivity and software performance.
+      - Standardized the frontend architecture, establishing guidelines for component structure, state management, and API integration, which streamlined development processes across multiple projects.
+      - Acted as the primary technical representative for the team in meetings with senior management, providing insights on project feasibility, resource requirements, and technical challenges.
+      - Collaborated with cross-functional teams to align frontend development strategies with business objectives, contributing to successful project planning and delivery.
+  - title: Software Engineer
+    employer: SEB
+    location: Kuala Lumpur, Malaysia
+    start_date: 2018-01
+    end_date: 2019-06
+    achievements:
+      - Joined a specialized frontend development team tasked with building reusable UI components based on the company’s design library, adhering to guidelines for branding, accessibility, and user experience.
+      - Developed and maintained React and Angular component libraries, published as open-source packages on npm, enabling consistent UI implementation across the entire organization.
+      - Collaborated closely with designers to ensure compliance with design standards and accessibility requirements, integrating feedback to refine components for optimal usability.
+      - Provided support to internal development teams, addressing feedback and resolving bugs reported in the component libraries, contributing to smoother integration and higher adoption rates.
+      - Contributed to the frontend development of an internal employee management system, implementing features for user interface and enhancing user workflows. The system streamlined employee onboarding, application processing, and hiring updates.
+      - Coordinated with backend teams to ensure seamless integration, consuming RESTful APIs for dynamic data presentation and implementing state management with Redux (React) and RxJS (Angular).
+  - title: Full-stack Developer
+    employer: Freelance/Self-Employed
+    start_date: 2013-12
+    end_date: 2017-12
+    achievements:
+      - "Social Web Application: Developed a full-featured social web platform using Laravel, designed to gather and analyze user data for targeted advertising. Implemented real-time features with Web Sockets, utilizing PHP, JavaScript, jQuery, UIKit, SASS, and MySQL for robust data handling and an interactive user interface."
+      - "Medical Directory: Built a comprehensive medical directory application using Laravel, enabling users to search and access information about clinics, doctors, and pharmacies. Integrated search and filtering functionalities, and designed a responsive UI with Bootstrap and SASS."
+      - "Accounting Application: Created and maintained an accounting system for client data management, including record storage, retrieval, and updates. Leveraged PHP, JavaScript, jQuery, and MySQL to build a secure and efficient backend, and designed a user-friendly interface with Bootstrap."
+      - "Landing Page for Retail Store: Designed and developed a landing page featuring store information and product offerings. Employed PHP, JavaScript, jQuery, and CSS, and optimized the page for SEO and performance."
+  - title: Web Developer
+    employer: EPC Engineering AB
+    location: Baghdad, Iraq
+    start_date: 2012-07
+    end_date: 2013-07
+    achievements:
+      - Managed and enhanced the company’s website built on WordPress, implementing custom features in PHP, JavaScript, and CSS to meet evolving business needs.
+      - Regularly updated and patched the website for security and functionality, ensuring a stable user experience and minimizing downtime.
+      - Developed an offline document archive system for internal use, enabling efficient storage, search, and retrieval of company documents and visual assets using PHP, jQuery, and MySQL.
+      - Provided technical support for the company’s IT infrastructure, including configuring computers for new employees, performing software updates, and troubleshooting hardware issues.
+      - Assisted with the setup and maintenance of network equipment and ensured consistent internet connectivity across the office.
+  - title: Web Developer
+    employer: Al-Nidaa ISP
+    location: Baghdad, Iraq
+    start_date: 2009-07
+    end_date: 2010-09
+    achievements:
+      - Built and maintained the company’s landing page using WordPress, with custom functionality implemented in PHP, jQuery, HTML, and CSS.
+      - Extended WordPress features through custom PHP scripts and integrated MySQL databases for dynamic content management.
+      - Managed and configured MikroTik servers, routers, and firewalls, ensuring efficient network bandwidth allocation and reliable internet services for clients.
+      - Set up and maintained network modems and outdoor transmission stations, providing consistent connectivity for end users.
+      - Provided IT support, troubleshooting and maintaining operating systems and software across company computers.

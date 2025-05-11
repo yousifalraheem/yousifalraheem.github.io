@@ -1,0 +1,33 @@
+section#experience {
+  background-color: black;
+  min-height: 100vh;
+
+  .role {
+    color: #515151;
+    position: relative;
+
+    @media (prefers-reduced-motion: no-preference) {
+      --timeline: view();
+
+      animation: highlight-role 200ms ease-in-out forwards;
+      animation-timeline: var(--timeline);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+    }
+  }
+}
+
+@keyframes highlight-role {
+  50% {
+    color: white;
+    scale: 1.5;
+    margin-block: 5rem 10rem;
+  }
+}

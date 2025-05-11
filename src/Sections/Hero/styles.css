@@ -1,0 +1,144 @@
+section#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .moon {
+    position: absolute;
+    inset-block-start: max(-80vw, -45%);
+    filter: brightness(0.5) drop-shadow(2px 4px 20px rgb(255 255 255 / 20%));
+    z-index: 1;
+    max-width: 99vw;
+    user-select: none;
+    -webkit-user-drag: none;
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: filter 1.5s ease-in 400ms;
+      animation: moon-descend 2s ease-in-out forwards;
+    }
+
+    &:hover {
+      filter: brightness(0.9) drop-shadow(2px 4px 40px rgb(255 255 255 / 40%));
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: clamp(2.5rem, 4vw, 4rem);
+      text-align: center;
+      margin-bottom: 1rem;
+      background: linear-gradient(
+        to right,
+        var(--red),
+        var(--purple),
+        var(--blue),
+        var(--pink),
+        var(--red)
+      );
+      background-clip: text;
+      color: transparent;
+
+      @media (prefers-reduced-motion: no-preference) {
+        opacity: 0;
+        animation: appear 1s ease-in-out 1s forwards,
+        text-grow 1s ease-in-out 1s forwards,
+        shifting-colors 10s ease-in-out infinite alternate-reverse;
+      }
+    }
+
+    p {
+      color: #afafaf;
+      font-size: clamp(1rem, 3vw, 2rem);
+
+      @media (prefers-reduced-motion: no-preference) {
+        opacity: 0;
+        animation: appear 1s ease-in-out 1.5s forwards,
+        text-grow 1s ease-in-out 1.5s forwards;
+      }
+    }
+  }
+
+  .get-started {
+    position: absolute;
+    bottom: 100px;
+    opacity: 0.6;
+
+    @media (prefers-reduced-motion: no-preference) {
+      /* noinspection CssInvalidFunction */
+      --timeline: view(block 80% 5%);
+
+      animation: fade-away 1s ease-in-out 2s forwards;
+      animation-timeline: var(--timeline);
+    }
+
+    .icon-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .icon {
+        --size: 25px;
+
+        width: var(--size);
+        height: var(--size);
+        rotate: 45deg;
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+        position: absolute;
+
+        @media (prefers-reduced-motion: no-preference) {
+          animation: arrow-dance 2s ease-in-out infinite;
+        }
+
+        &:nth-child(2) {
+          margin-top: 7px;
+          animation-delay: 0.4s;
+        }
+
+        &:nth-child(3) {
+          margin-top: 14px;
+          animation-delay: 0.8s;
+        }
+      }
+    }
+  }
+}
+
+@keyframes moon-descend {
+  0% {
+    translate: 0 -10%;
+  }
+
+  100% {
+    translate: 0 0;
+    scale: 1.1;
+    rotate: 5deg;
+  }
+}
+
+@keyframes arrow-dance {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+    scale: 1.05;
+  }
+
+  100% {
+    opacity: 0.5;
+    scale: 1;
+  }
+}
+
+@keyframes fade-away {
+  to {
+    opacity: 0;
+  }
+}
